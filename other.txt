@@ -1,0 +1,19 @@
+ Primary: Javascript, Dart, Python, C#, PHP
+
+◇Frameworks:
+ • React/React Native, Vue, Angular, Node.js, D3, Electron, Pixi, Fabric (JS)
+ • Flutter (Dart)
+ • Django, Flask; (Python)
+ • Laravel, Symfony, Yii1,2; (PHP)
+ • ASP.NET, .NET core, Entity Framework (C#)
+
+◇Database
+ • MySQL, SQL, PostgreSQL; (SQL databases)
+ • Firebase, Mongo, ?Redis, ?Neo4j; (NoSQL databases)
+
+◇Others
+ • Amazon Web Service (EC2, S3, Lambda, Cognito)
+ • Heroku, Docker, Kubernets
+ • Github, bitbucket, Gitlab
+ • Jira, Agile environment, TDD, BDD
+ • QuickBook Integration, OAuth2, Payment Gateway, etc..

@@ -1,0 +1,168 @@
+/* variables */
+:root {
+  --color-one: ;
+  --color-two: ;
+  --color-three: ;
+  --color-four: ;
+  --color-five: ;
+}
+
+/* PORTRAIT CSS BELOW */
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Code Pro", monospace;
+}
+body {
+  height: 100%;
+  width: 100%;
+  /* Banner Style Full Element Photo */
+  /* background-image: url("https://as1.ftcdn.net/jpg/02/69/87/04/500_F_269870413_IdnpSWcfCQO7kciAgPZ3y4g38rQLWpHf.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+/* navbar below */
+nav {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.navsection {
+  display: flex;
+  height: 100%;
+  width: 30%;
+}
+.navsection-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.navsection-center {
+  display: flex;
+  justify-content: center;
+}
+.navsection-center > a {
+  margin: 3px 9px;
+}
+#home-anchor:hover {
+  margin: 0px 9px;
+}
+#home-anchor:hover #home-title {
+  margin-top: 0.5px;
+  padding-bottom: 2.5px;
+  border-bottom: 3px solid black;
+}
+#catalog-anchor:hover {
+  margin: 0px 9px;
+}
+#catalog-anchor:hover #catalog-title {
+  margin-top: 0.5px;
+  padding-bottom: 2.5px;
+  border-bottom: 3px solid black;
+}
+.navsection-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.navsection-right > a {
+  margin: 0px 10px;
+}
+/* navbar above */
+
+/* banner-1 below */
+#banner-1 {
+  min-height: 60%;
+  width: 100%;
+  background-image: url("https://scontent.fphx1-1.fna.fbcdn.net/v/t1.0-9/71167962_115948436456975_8854537485473021952_n.jpg?_nc_cat=110&_nc_oc=AQlxHtg58kN5LsqSqZzehDs-n4mNiaiGwvj0RgQgkIusxdrJwjp84Y-PabbapfPa7vePPIdfBVNwCCriq1ED1Dpz&_nc_ht=scontent.fphx1-1.fna&oh=c3f01e8e31cfc21b0cca17ca2ca2f177&oe=5DF5E304");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* banner-1 above */
+
+/* featured collection below */
+#featured-collection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+#single-display {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 100px 20px 0px 20px;
+}
+#single-display > div {
+  margin: 10px;
+}
+
+/* featured collection above */
+
+/* banner-2 below */
+#banner-2 {
+  height: 1000px;
+  width:100%;
+  background-image: url("https://scontent.fphx1-1.fna.fbcdn.net/v/t1.0-9/71059065_118872709497881_5890306290776801280_o.jpg?_nc_cat=110&_nc_oc=AQm0wfbynjJ3Xn-zC1aANplnN6efIqkPdDb6TdH0qLFBIo1odJVZX51OL88O8JpTTtBsvnXkIT12g-9ksYvCJ_lb&_nc_ht=scontent.fphx1-1.fna&oh=333c598e6df7e61adce4575ae2959db1&oe=5E00D7E3");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* banner-2 above */
+
+/* image-group1 below */
+#image-group1{
+  display: flex;
+justify-content: center;
+  flex-wrap: no-wrap;
+  width: 100%;
+}
+#image-group1 > img {
+  width: 33.334%;
+}
+/* image-group1 above */
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-sec1{
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-sec1 > div {
+  width: 28%;
+}
+.quick-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-sec2{
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: flex-end;
+}
+
+/* ---------------------PORTRAIT CSS ABOVE--------------------- */
+
+/* ---------------------LANDSCAPE CSS BELOW--------------------- */
+@media screen and (max-width: 850px) {
+  #banner-1 {
+    background-size: contain;
+}
+#banner-2 {
+  height: 50%;
+  background-size: contain;
+  background-position: bottom;
+}
+/* LANDSCAPE CSS ABOVE */
