@@ -78,10 +78,12 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #banner-1 > img {
+  align-self: flex-end;
 }
 /* banner-1 above */
 
@@ -118,6 +120,9 @@ nav {
 /* featured collection above */
 
 /* banner-2 below */
+.carousel-item > img {
+  max-height: 600px;
+}
 
 /* banner-2 above */
 
@@ -131,7 +136,7 @@ nav {
 #image-group1 > img {
   width: 33.4%;
   min-width: 360px;
-  max-height: 900px;
+  max-height: 460px;
 }
 /* image-group1 above */
 
