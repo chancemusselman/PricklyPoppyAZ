@@ -73,7 +73,7 @@ nav {
 #banner-1 {
   height: 600px;
   min-width: 100%;
-  background-image: url("../images/banner-PP-Webtiny.jpg");
+  background-image: url("./banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
