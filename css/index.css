@@ -9,8 +9,6 @@
 
 /* PORTRAIT CSS BELOW */
 html {
-  height: 100%;
-  width: 100%;
   font-family: "Source Code Pro", monospace;
 }
 body {
@@ -26,7 +24,7 @@ body {
 nav {
   min-height: 70px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -73,30 +71,35 @@ nav {
 
 /* banner-1 below */
 #banner-1 {
-  min-height: 60%;
-  width: 100%;
-  /* background-image: url("https://scontent.fphx1-1.fna.fbcdn.net/v/t1.0-9/71167962_115948436456975_8854537485473021952_n.jpg?_nc_cat=110&_nc_oc=AQlxHtg58kN5LsqSqZzehDs-n4mNiaiGwvj0RgQgkIusxdrJwjp84Y-PabbapfPa7vePPIdfBVNwCCriq1ED1Dpz&_nc_ht=scontent.fphx1-1.fna&oh=c3f01e8e31cfc21b0cca17ca2ca2f177&oe=5DF5E304"); */
+  height: 600px;
+  min-width: 100%;
+  background-image: url("../images/banner-PP-Webtiny.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#banner-1 > img {
 }
 /* banner-1 above */
 
 /* featured collection below */
 #featured-collection {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+
   width: 100%;
   padding: 20px;
 }
 #featured-collection > div > img {
-  height: 200px;
-  width: 250px;
+  flex: 1 1 160px;
 }
 #single-display {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -115,14 +118,7 @@ nav {
 /* featured collection above */
 
 /* banner-2 below */
-#banner-2 {
-  height: 1000px;
-  width: 100%;
-  background-image: url("https://scontent.fphx1-1.fna.fbcdn.net/v/t1.0-9/71059065_118872709497881_5890306290776801280_o.jpg?_nc_cat=110&_nc_oc=AQm0wfbynjJ3Xn-zC1aANplnN6efIqkPdDb6TdH0qLFBIo1odJVZX51OL88O8JpTTtBsvnXkIT12g-9ksYvCJ_lb&_nc_ht=scontent.fphx1-1.fna&oh=333c598e6df7e61adce4575ae2959db1&oe=5E00D7E3");
-  background-size: 75%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 /* banner-2 above */
 
 /* image-group1 below */
@@ -133,9 +129,24 @@ nav {
   width: 100%;
 }
 #image-group1 > img {
-  width: 33.334%;
+  width: 33.4%;
+  min-width: 360px;
+  max-height: 900px;
 }
 /* image-group1 above */
+
+/* image-group2 below */
+#image-group2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 50px auto;
+}
+#image-group2 > img {
+  min-width: 50%;
+  max-height: 700px;
+}
+/* image-group2 above */
 
 footer {
   display: flex;
@@ -167,15 +178,23 @@ footer {
 /* ---------------------LANDSCAPE CSS BELOW--------------------- */
 @media screen and (max-width: 850px) {
   #banner-1 {
-    background-size: contain;
+    /* background-size: contain; */
+    background-position: top;
   }
   #banner-2 {
     height: 50%;
     background-size: contain;
     background-position: bottom;
   }
+  #featured-collection > div > img {
+    height: 140px;
+    width: 190px;
+  }
   #single-display {
     margin: 0px auto;
+  }
+  #image-group2 > img {
+    width: 100%;
   }
 }
 /* LANDSCAPE CSS ABOVE */
