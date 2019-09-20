@@ -125,7 +125,7 @@ nav {
 
 /* banner-2 below */
 #banner-2 {
-  opacity: 0.85;
+  /* opacity: 0.85; */
   background-color: white;
 }
 .carousel-item > img {
@@ -152,11 +152,11 @@ nav {
 #image-group2 {
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   margin: 50px auto;
 }
 #image-group2 > img {
-  min-width: 75%;
+  /* min-width: 75%; */
   /* max-height: 700px; */
 }
 /* image-group2 above */
