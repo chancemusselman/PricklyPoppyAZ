@@ -78,13 +78,20 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-wrap: no-wrap;
+  justify-content: space-around;
+  padding: 20px;
 }
 #banner-1 > img {
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
+.bannerImage-wrapper {
+  display: flex;
+}
+#banner-text {
+  width: 50%;
+}
+
 /* banner-1 above */
 
 /* featured collection below */
@@ -92,12 +99,10 @@ nav {
   display: flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
-
   width: 100%;
-  padding: 20px;
 }
 #featured-collection > div > img {
-  flex: 1 1 160px;
+  /* flex: 1 1 160px; */
 }
 #single-display {
   display: flex;
@@ -105,8 +110,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  margin: 50px auto;
-  padding: 100px 20px 0px 20px;
+  margin: 125px auto;
 }
 #single-display > img {
   /* height: 400px;
@@ -183,8 +187,10 @@ footer {
 /* ---------------------LANDSCAPE CSS BELOW--------------------- */
 @media screen and (max-width: 850px) {
   #banner-1 {
-    /* background-size: contain; */
-    background-position: top;
+    justify-content: flex-end;
+  }
+  #banner-text {
+    width: 100%;
   }
   #banner-2 {
     height: 50%;
