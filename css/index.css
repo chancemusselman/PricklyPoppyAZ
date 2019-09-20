@@ -124,8 +124,12 @@ nav {
 /* featured collection above */
 
 /* banner-2 below */
+#banner-2 {
+  opacity: 0.85;
+  background-color: white;
+}
 .carousel-item > img {
-  max-height: 600px;
+  /* max-height: 600px; */
 }
 
 /* banner-2 above */
