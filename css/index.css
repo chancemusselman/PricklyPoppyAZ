@@ -35,7 +35,7 @@ nav {
 }
 .navsection-left {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .navsection-center {
   display: flex;
@@ -43,6 +43,8 @@ nav {
 }
 .navsection-center > a {
   margin: 3px 9px;
+  text-decoration: none;
+  color: black;
 }
 #home-anchor:hover {
   margin: 0px 9px;
@@ -62,7 +64,7 @@ nav {
 }
 .navsection-right {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .navsection-right > a {
   margin: 0px 10px;
@@ -89,7 +91,7 @@ nav {
   display: flex;
 }
 #banner-text {
-  width: 50%;
+  height: 100%;
 }
 
 /* banner-1 above */
@@ -191,10 +193,11 @@ footer {
 /* ---------------------LANDSCAPE CSS BELOW--------------------- */
 @media screen and (max-width: 850px) {
   #banner-1 {
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   #banner-text {
     width: 100%;
+    height: 60%;
   }
   #banner-2 {
     height: 50%;
