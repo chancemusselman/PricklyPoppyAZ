@@ -78,10 +78,12 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  justify-content: flex-start;
   flex-flow: row nowrap;
   align-items: center;
 }
 #banner-1 > img {
+  margin-left: 40px;
 }
 .bannerImage-wrapper {
   display: flex;
@@ -94,7 +96,7 @@ nav {
 #banner-text {
   max-width: 50%;
   min-height: 250px;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .bp1,
@@ -131,6 +133,7 @@ nav {
 }
 #single-display > img {
   margin: 20px;
+  max-width: 100%;
 }
 #single-display > div {
   margin: 20px;
@@ -141,6 +144,7 @@ nav {
 /* banner-2 below */
 #banner-2 {
   background-color: white;
+  padding-top: 50px;
 }
 
 /* banner-2 above */
@@ -217,6 +221,9 @@ footer {
   #banner-1 {
     flex-flow: column-reverse nowrap;
     justify-content: flex-start;
+  }
+  #banner-1 > img {
+    margin-left: 0px;
   }
   #banner-text {
     max-width: 100%;
