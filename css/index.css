@@ -5,6 +5,12 @@
   --color-three: ;
   --color-four: ;
   --color-five: ;
+
+  --image-one: url("/images/TreeHugger1Webtiny.png");
+  --image-two: url("/images/TreeHugger2tiny.png");
+  --image-three: ;
+  --image-four: ;
+  --image-five: ;
 }
 
 /* PORTRAIT CSS BELOW */
@@ -136,11 +142,23 @@ nav {
   margin: 125px auto;
 }
 #single-display > img {
-  margin: 20px;
-  max-width: 100%;
 }
 #single-display > div {
   margin: 20px;
+}
+
+#treehuggerImg {
+  background-image: url("./TreeHugger1Webtiny.png");
+  background-size: 100%;
+  background-position: center;
+  min-width: 300px;
+  margin: 20px;
+  margin: 20px;
+  max-width: 100%;
+  min-height: 540px;
+}
+#treehuggerImg:hover {
+  background-image: url("./TreeHugger2tiny.png");
 }
 
 /* featured collection above */
