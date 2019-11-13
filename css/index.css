@@ -97,16 +97,18 @@ nav {
   justify-content: center;
   align-items: flex-end;
   flex-flow: row nowrap;
-  height: 100%;
-  max-width: 50%;
 }
 #banner-text {
-  max-width: 50%;
+  min-width: 50%;
+  max-width: 55%;
   min-height: 250px;
-  align-self: center;
-  /* background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 100px; */
-  /* box-shadow: 0px 0px 50px 5px white; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#banner-text > img {
+  max-height: 100px;
+  max-width: 100%;
 }
 
 .bp1,
@@ -131,8 +133,41 @@ nav {
   justify-content: space-evenly;
   flex-flow: row wrap;
   width: 100%;
-}
 
+  /* background-image: url(./rbop.jpg), url(./rbop.jpg);
+  background-size: 25%;
+  background-position: left center, right center;
+  background-repeat: no-repeat; */
+}
+.test {
+  /* border: 5px solid black; */
+  width: 22%;
+  min-height: 450px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.test > img {
+  max-width: 90%;
+  max-height: 80%;
+  margin: 20px auto;
+  visibility: ;
+  transition: 0.7s;
+}
+.test:nth-child(1) {
+  /* background-image: url("./rbop.jpg"); */
+  transition: 0.7s;
+}
+.test:nth-child(2) {
+  /* background-image: url("./rbop.jpg"); */
+}
+.test:nth-child(3) {
+  /* background-image: url("./rbop.jpg"); */
+}
+.test:nth-child(4) {
+  /* background-image: url("./rbop.jpg"); */
+}
 #single-display {
   display: flex;
   justify-content: center;
