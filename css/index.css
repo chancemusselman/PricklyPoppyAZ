@@ -266,6 +266,48 @@ footer {
 
 /* ---------------------PORTRAIT CSS ABOVE--------------------- */
 
+#catalog-slider {
+  min-height: 70vh;
+  min-width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+.slider-image {
+  background-color: black;
+  height: 50vh;
+  width: 100%;
+}
+
+.slider-image-1 {
+  /* background-color: black; */
+  background-image: url("SlideshowShellsResizePPWebtiny.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider-image-2 {
+  background-image: url("SlideshowConcretePPLogotiny.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider-image-3 {
+  background-image: url("SlideshowPricklyPearPPWebtiny.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider-image-4 {
+  /* background-color: darkgoldenrod; */
+}
+
+.product-title-cat {
+  font-family: "Special Elite", cursive;
+  font-size: 1em;
+  text-align: center;
+}
+
 /* ---------------------LANDSCAPE CSS BELOW--------------------- */
 @media screen and (max-width: 850px) {
   .navbar {
