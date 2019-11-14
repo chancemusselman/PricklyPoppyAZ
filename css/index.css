@@ -109,6 +109,7 @@ nav {
 #banner-text > img {
   max-height: 100px;
   max-width: 100%;
+  opacity: 0.7;
 }
 
 .bp1,
@@ -203,7 +204,8 @@ nav {
 /* banner-2 below */
 #banner-2 {
   background-color: white;
-  padding-top: 50px;
+  padding: 50px 0px;
+  margin: 50px 0px;
 }
 
 /* banner-2 above */
@@ -238,7 +240,7 @@ nav {
 footer {
   display: flex;
   flex-direction: column;
-  background-image: url("./footerwebtiny.png");
+  background-image: url("./footertearwebtiny.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -275,13 +277,13 @@ footer {
 
 .slider-image {
   background-color: black;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
 }
 
 .slider-image-1 {
   /* background-color: black; */
-  background-image: url("SlideshowShellsResizePPWebtiny.png");
+  background-image: url("1600.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
