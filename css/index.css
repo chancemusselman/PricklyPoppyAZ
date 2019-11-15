@@ -186,17 +186,34 @@ nav {
 }
 
 #treehuggerImg {
-  background-image: url("./Transparent1webtiny.png");
-  background-size: 440px;
-  background-position: center;
+  /* background-image: url("BangleAnimation.png"); */
+  background-size: cover;
+  background-position: bottom center;
   background-repeat: no-repeat;
   min-width: 300px;
-  margin: 20px;
-  margin: 20px;
-  min-height: 740px;
+  min-height: 500px;
+
+  animation-name: benglesFlash;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
-#treehuggerImg:hover {
-  background-image: url("./Transparent2webtiny.png");
+
+@keyframes benglesFlash {
+  0% {
+    background-image: url("BangleAnimation.png");
+  }
+  25% {
+    background-image: url("BangleAnimation2.png");
+  }
+  50% {
+    background-image: url("BangleAnimation3.png");
+  }
+  75% {
+    background-image: url("BangleAnimation4.png");
+  }
+  100% {
+    background-image: url("BangleAnimation.png");
+  }
 }
 
 /* featured collection above */
