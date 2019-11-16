@@ -174,7 +174,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  margin: 25px auto;
+  margin: 0 auto;
 }
 #single-display > div {
   margin: 20px;
@@ -191,7 +191,7 @@ nav {
   background-position: bottom center;
   background-repeat: no-repeat;
   min-width: 300px;
-  min-height: 500px;
+  min-height: 600px;
 
   animation-name: benglesFlash;
   animation-duration: 10s;
@@ -200,19 +200,19 @@ nav {
 
 @keyframes benglesFlash {
   0% {
-    background-image: url("BangleAnimation.png");
+    background-image: url("Ani.png");
   }
   25% {
-    background-image: url("BangleAnimation2.png");
+    background-image: url("Ani2.png");
   }
   50% {
-    background-image: url("BangleAnimation3.png");
+    background-image: url("Ani3.png");
   }
   75% {
-    background-image: url("BangleAnimation4.png");
+    background-image: url("Ani4.png");
   }
   100% {
-    background-image: url("BangleAnimation.png");
+    background-image: url("Ani.png");
   }
 }
 
@@ -288,12 +288,12 @@ footer {
 #catalog-slider {
   min-height: 70vh;
   min-width: 100%;
-  background-color: black;
+  /* background-color: black; */
   overflow: hidden;
 }
 
 .slider-image {
-  background-color: black;
+  /* background-color: black; */
   height: 60vh;
   width: 100%;
 }
@@ -306,13 +306,14 @@ footer {
   background-repeat: no-repeat;
 }
 .slider-image-2 {
-  background-image: url("SlideshowConcretePPLogotiny.png");
+  background-image: url("slideshowbookcrop.png");
   background-size: cover;
-  background-position: center;
+  background-position: left center;
   background-repeat: no-repeat;
+  /* background-position-y: -800px; */
 }
 .slider-image-3 {
-  background-image: url("SlideshowPricklyPearPPWebtiny.png");
+  background-image: url("slideshowbanglegradient.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -388,5 +389,13 @@ footer {
   #image-group2 > img {
     width: 100%;
   }
+  .slider-image-2 {
+    background-image: url("slideshowbook.png");
+    background-size: cover;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+  }
 }
+
 /* LANDSCAPE CSS ABOVE */
